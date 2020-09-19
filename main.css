@@ -1,0 +1,72 @@
+:root {
+  --primary: #2f4550;
+  --secondary: #f4f4f9;
+}
+
+body, html {
+  height: 100vh;
+  width: 100vw;
+}
+
+nav.bg-light {
+  background-color: var(--secondary) !important;
+}
+
+nav, .navbar, .navbar-light, .navbar-brand, .navbar-nav, .nav-item, .nav-link, .navbar-toggler-icon, .navbar-toggler {
+  color: var(--primary) !important;
+  background-color: var(--secondary);
+}
+
+@media only screen and (max-width: 991px) {
+  .nav-item:first-of-type {
+    border-top: 1px solid var(--primary);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .nav-item {
+    border-bottom: 1px solid var(--primary);
+    padding-left: 15px;
+  }
+
+  .nav-item:last-of-type {
+    border-bottom: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .nav-item:first-of-type a {
+    border-top-right-radius: inherit;
+  }
+
+  .nav-item:last-of-type a {
+    border: inherit;
+    border-radius: inherit;
+  }
+
+  .navbar-nav {
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px var(--primary)
+  }
+}
+
+nav a {
+  color: inherit;
+}
+
+nav {
+  box-shadow: 0 0 5px 2px var(--primary);
+}
+
+footer {
+  grid-area: footer;
+  background-color: var(--secondary);
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a {
+  color: inherit;
+}

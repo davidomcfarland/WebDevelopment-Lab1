@@ -1,0 +1,5 @@
+umbrellas.jpg = "colores" by René Mayorga is licensed under CC BY-SA 2.0
+Sheets.jpg = "Colors" by Mathias Appel is marked with CC0 1.0
+MountainLake.jpg = "Sunset on Lake McDonald" by GlacierNPS is marked with CC PDM 1.0
+ReflectionLake.jpg = "Sunset on Lake McDonald" by GlacierNPS is marked with CC PDM 1.0
+SlotCanyon.jpg = "Slot Canyon Light" by howardignatius is licensed under CC BY-NC-ND 2.0
